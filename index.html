@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kilaparthi Pushpa Latha - Aspiring Data Scientist | Python Developer | AI Enthusiast. Portfolio showcasing ML projects, skills, and experience in data science and AI.">
+    <meta name="keywords" content="Data Scientist, Python Developer, Machine Learning, AI, TensorFlow, NLP, Portfolio">
+    <meta name="author" content="Kilaparthi Pushpa Latha">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kilaparthi Pushpa Latha - Data Scientist Portfolio">
+    <meta property="og:description" content="Aspiring Data Scientist | Python Developer | AI Enthusiast">
+    <meta property="og:url" content="">
+    
+    <title>Kilaparthi Pushpa Latha - Data Scientist Portfolio</title>
+    
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">Kilaparthi Pushpa Latha</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="assets/resume.pdf" class="btn-resume" download>Download Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Kilaparthi Pushpa Latha</h1>
+                <p class="hero-tagline">Aspiring Data Scientist | Python Developer | AI Enthusiast</p>
+                <p class="hero-description">
+                    I'm Pushpa Latha — an aspiring data scientist with experience in image-based ML projects, 
+                    NLP chatbots, and building practical AI tools. I work with Python, TensorFlow, pandas, SQL, 
+                    and visualization tools to extract insights and build meaningful data solutions. I also coordinate 
+                    campus tech events and enjoy turning data into actionable stories.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="assets/resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="icon" aria-hidden="true">📧</span>
+                        <a href="mailto:kilaparthipushpalatha@gmail.com">kilaparthipushpalatha@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon" aria-hidden="true">📍</span>
+                        <span>Visakhapatnam, Andhra Pradesh, India</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon" aria-hidden="true">🔗</span>
+                        <a href="https://github.com/pushpa-latha-tech" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon" aria-hidden="true">🔗</span>
+                        <a href="https://linkedin.com/in/pushpalatha146" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        As an aspiring data scientist and Python developer, I'm passionate about leveraging technology 
+                        to solve real-world problems. My journey in AI and machine learning has led me to work on diverse 
+                        projects ranging from plant disease detection to skin cancer identification systems.
+                    </p>
+                    <p>
+                        Beyond technical skills, I actively contribute to the tech community through coordinating workshops, 
+                        hackathons, and seminars. I believe in continuous learning and collaboration, which drives me to 
+                        explore new technologies and share knowledge with peers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card" data-project="1">
+                    <div class="project-card-content">
+                        <h3>Plant Disease Detection System</h3>
+                        <p>ML-based system that identifies plant diseases from leaf images using preprocessing, feature extraction, and CNN classification.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Image Processing</span>
+                            <span class="tag">ML</span>
+                        </div>
+                        <button class="btn btn-outline" data-modal="project1">View Details</button>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card" data-project="2">
+                    <div class="project-card-content">
+                        <h3>Skin Cancer Detection</h3>
+                        <p>Image classification model to detect benign vs malignant skin lesions. Implemented preprocessing and feature extraction to improve accuracy.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Keras</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">ML</span>
+                        </div>
+                        <button class="btn btn-outline" data-modal="project2">View Details</button>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card" data-project="3">
+                    <div class="project-card-content">
+                        <h3>Rule-Based Chatbot with NLP</h3>
+                        <p>Developed a chatbot in Python using NLP pattern-response matching to handle real-time user interactions efficiently.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Pattern Matching</span>
+                        </div>
+                        <button class="btn btn-outline" data-modal="project3">View Details</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="skills-content">
+                <div class="skills-chart-container">
+                    <canvas id="skillsChart" aria-label="Skills visualization chart"></canvas>
+                </div>
+                <div class="skills-lists">
+                    <div class="skills-category">
+                        <h3>Technical Skills</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Pandas & NumPy</li>
+                            <li>TensorFlow & Keras</li>
+                            <li>SQL</li>
+                            <li>NLP</li>
+                            <li>OpenCV</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Communication</li>
+                            <li>Adaptability</li>
+                            <li>Teamwork</li>
+                            <li>Leadership</li>
+                            <li>Problem Solving</li>
+                            <li>Event Coordination</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Training Section -->
+            <div class="training-section">
+                <h3 class="subsection-title">Training</h3>
+                <div class="training-card">
+                    <div class="training-content">
+                        <h4>Infosys Springboard - Pragati: Path to Future (Cohort 4)</h4>
+                        <p class="training-period">January 2025 – April 2025</p>
+                        <p>Advanced training program focused on emerging technologies and professional development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications-section" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <article class="cert-card">
+                    <div class="cert-content">
+                        <h3>Python Developer</h3>
+                        <p class="cert-platform">Sololearn</p>
+                        <p class="cert-id">Credential ID: CC-ECFFD7D</p>
+                        <a href="#" class="cert-link" target="_blank" rel="noopener noreferrer">View Credential</a>
+                    </div>
+                </article>
+
+                <article class="cert-card">
+                    <div class="cert-content">
+                        <h3>SQL for Data Science</h3>
+                        <p class="cert-platform">edX (IBM)</p>
+                        <p class="cert-id">Professional Certificate</p>
+                        <a href="#" class="cert-link" target="_blank" rel="noopener noreferrer">View Credential</a>
+                    </div>
+                </article>
+
+                <article class="cert-card">
+                    <div class="cert-content">
+                        <h3>Professional Certificate in Data Science Foundations</h3>
+                        <p class="cert-platform">edX (IBM)</p>
+                        <p class="cert-id">Professional Certificate</p>
+                        <a href="#" class="cert-link" target="_blank" rel="noopener noreferrer">View Credential</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Robonauts Club Coordinator</h3>
+                        <p class="timeline-period">April 2023 – Present</p>
+                        <p>Organized seminars, poster presentations, and quizzes with 120+ participants. Led initiatives to promote robotics and AI awareness among students.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Hackathon Coordinator</h3>
+                        <p class="timeline-period">TECHRITZ 2024 Hackprism, October 2024</p>
+                        <p>Coordinated major hackathon event with 200+ participants. Managed logistics, judging panels, and participant engagement throughout the competition.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Business Intelligence Workshop Coordinator</h3>
+                        <p class="timeline-period">November 1–2, 2023</p>
+                        <p>Conducted comprehensive Power BI workshop with 150+ participants. Facilitated hands-on training sessions on data visualization and business intelligence tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <article class="education-card">
+                    <div class="education-content">
+                        <h3>B.Tech in Information Technology</h3>
+                        <p class="education-institution">Vignan's Institute of Engineering for Women</p>
+                        <p class="education-university">JNTU-GV</p>
+                        <p class="education-period">Expected 2026</p>
+                        <p class="education-grade">CGPA: 7.27</p>
+                    </div>
+                </article>
+
+                <article class="education-card">
+                    <div class="education-content">
+                        <h3>Intermediate (MPC)</h3>
+                        <p class="education-institution">Narayana Junior College</p>
+                        <p class="education-period">2022</p>
+                        <p class="education-grade">GPA: 8.4</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required aria-required="true">
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <p class="contact-note">Typically respond within 2–3 business days.</p>
+                </div>
+
+                <div class="contact-details">
+                    <h3>Contact Information</h3>
+                    <div class="contact-detail-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:kilaparthipushpalatha@gmail.com">kilaparthipushpalatha@gmail.com</a>
+                    </div>
+                    <div class="contact-detail-item">
+                        <strong>LinkedIn:</strong>
+                        <a href="https://linkedin.com/in/pushpalatha146" target="_blank" rel="noopener noreferrer">linkedin.com/in/pushpalatha146</a>
+                    </div>
+                    <div class="contact-detail-item">
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/pushpa-latha-tech" target="_blank" rel="noopener noreferrer">github.com/pushpa-latha-tech</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-text">© 2025 Kilaparthi Pushpa Latha. Built with HTML • CSS • JS.</p>
+            <div class="social-links">
+                <a href="https://github.com/pushpa-latha-tech" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/pushpalatha146" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+            </div>
+            <button class="back-to-top" id="backToTop" aria-label="Back to top">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <!-- Modal 1: Plant Disease Detection -->
+    <div class="modal" id="project1Modal" role="dialog" aria-labelledby="project1Title" aria-modal="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2 id="project1Title">Plant Disease Detection System</h2>
+            <div class="modal-body">
+                <p><strong>Overview:</strong> This ML-based system identifies plant diseases from leaf images, helping farmers and agricultural professionals detect and treat plant diseases early.</p>
+                
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Image preprocessing and enhancement using OpenCV</li>
+                    <li>Feature extraction from leaf images</li>
+                    <li>CNN-based classification for disease identification</li>
+                    <li>Support for multiple plant species and disease types</li>
+                    <li>High accuracy and real-time prediction capabilities</li>
+                </ul>
+                
+                <p><strong>Technologies Used:</strong> Python, OpenCV, TensorFlow, Image Processing, Machine Learning</p>
+                
+                <div class="modal-actions">
+                    <a href="https://github.com/pushpa-latha-tech" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Skin Cancer Detection -->
+    <div class="modal" id="project2Modal" role="dialog" aria-labelledby="project2Title" aria-modal="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2 id="project2Title">Skin Cancer Detection</h2>
+            <div class="modal-body">
+                <p><strong>Overview:</strong> An image classification model designed to assist in early detection of skin cancer by analyzing skin lesion images and classifying them as benign or malignant.</p>
+                
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Advanced image preprocessing techniques</li>
+                    <li>Feature extraction for accurate classification</li>
+                    <li>Binary classification (benign vs malignant)</li>
+                    <li>Model optimization for improved accuracy</li>
+                    <li>Transfer learning implementation</li>
+                </ul>
+                
+                <p><strong>Technologies Used:</strong> Python, TensorFlow, Keras, OpenCV, Machine Learning</p>
+                
+                <div class="modal-actions">
+                    <a href="https://github.com/pushpa-latha-tech" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: NLP Chatbot -->
+    <div class="modal" id="project3Modal" role="dialog" aria-labelledby="project3Title" aria-modal="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2 id="project3Title">Rule-Based Chatbot with NLP</h2>
+            <div class="modal-body">
+                <p><strong>Overview:</strong> A Python-based conversational chatbot that uses NLP pattern-response matching to handle user queries and provide relevant responses in real-time.</p>
+                
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Pattern recognition and matching</li>
+                    <li>Real-time conversation handling</li>
+                    <li>Context-aware responses</li>
+                    <li>Efficient query processing</li>
+                    <li>Expandable rule base</li>
+                </ul>
+                
+                <p><strong>Technologies Used:</strong> Python, Natural Language Processing, Pattern Matching</p>
+                
+                <div class="modal-actions">
+                    <a href="https://github.com/pushpa-latha-tech" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
