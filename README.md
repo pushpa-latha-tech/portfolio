@@ -2,7 +2,7 @@
 
 A clean, minimal, and professional single-page portfolio website showcasing data science projects, skills, certifications, and experience.
 
-🌐 **Live Website**: [To be published]
+🌐 **Live Website**: https://pushpa-latha-tech.github.io/portfolio/
 
 ---
 
