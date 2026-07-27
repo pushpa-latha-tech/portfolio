@@ -415,3 +415,4 @@ This project is open source and available for personal use. Feel free to use thi
 **Built with HTML • CSS • JS**
 
 *Last Updated: 2025*
+<img width="1071" height="621" alt="Screenshot 2026-07-27 220405" src="https://github.com/user-attachments/assets/f2d1c051-76e0-4843-817d-1f0dab315bd6" />
